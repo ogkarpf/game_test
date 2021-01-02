@@ -148,7 +148,7 @@ PrefabInstance:
     - target: {fileID: 7017624517265651608, guid: 7058af0bdeb7ca64080c0b8bbf0a7062,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.578955
+      value: 14.14
       objectReference: {fileID: 0}
     - target: {fileID: 7017624517265651608, guid: 7058af0bdeb7ca64080c0b8bbf0a7062,
         type: 3}
@@ -748,10 +748,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1f7dd33982cce459acd5d88b879fd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 10
-  Gravity: 9.8
-  jumpHeight: 20
   cam: {fileID: 1689404303}
+  moveSpeed: 10
+  jumpSpeed: 5
+  gravity: 9
 --- !u!143 &2033810334
 CharacterController:
   m_ObjectHideFlags: 0
